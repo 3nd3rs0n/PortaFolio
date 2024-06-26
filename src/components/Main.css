@@ -1,0 +1,24 @@
+.Main { 
+    height: 60vh;
+    background: linear-gradient(45deg, #000000, #070070,  #000000, #2c0632);
+    background-size: 300%;
+    animation: color 12s ease-in-out infinite
+}
+.Contenido {
+    margin-top: -3rem;
+    position: relative;
+    background-color: #090612;
+}
+
+@keyframes color { 
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+    
+}
