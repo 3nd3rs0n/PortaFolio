@@ -32,7 +32,7 @@ const Main = () => {
     <main className="w-screen flex justify-center  Main">
         <div className="container w-1/2 text-white p-6 rounded-3xl h-full min-h-80 Contenido ">
         <div className='text-center pb-2'>
-          <h2 className="text-2xl font-bold mb-4">Habilidades</h2> 
+          <h1 className="text-2xl font-bold mb-4">HABILIDADES</h1> 
           <hr />    
         </div>
 

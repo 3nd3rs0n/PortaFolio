@@ -13,7 +13,7 @@ const Navbar = () => {
      
       <nav className=" text-white w-screen navbar">
         <div className="container pl-12 pt-40 ">
-          <div className='text-3xl'>
+          <div className='text-3xl Montserrat'>
             <TypeAnimation
               sequence=
               {['Bienvenido a mi Portafolio', 4000,
@@ -29,7 +29,7 @@ const Navbar = () => {
               repeat={Infinity} 
               />
           </div>
-          <p className='w-1/2 pt-5 font-bold text-justify text-sm '>
+          <p className='w-1/2 pt-5  text-justify text-sm '>
           Apasionado y amante de la tecnologia y el aprendizaje continuo en el mundo de la programación,
           dispuesto siempre a enfrentar desafios,buscando mejorar y adaptarme a las últimas tendencias y 
           mejores prácticas de la industria. Mi enfoque en el detalle y mi compromiso con la calidad 

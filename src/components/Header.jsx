@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <>
-    <header class="fixed top-0 left-0 right-0 z-50 bg-transparent text-white  py-4 pl-6 ">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-transparent text-white  py-4 pl-6 Header ">
         <div className="container mx-auto flex flex-wrap items-center justify-between p-6">
             <a className="text-2xl font-bold" href="#">PORTFOLIO</a>
             

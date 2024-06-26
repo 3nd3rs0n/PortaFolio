@@ -5,7 +5,7 @@ const Perfil = () => {
   return (
     <main className="grid grid-cols-2 gap-4 place-content-around text-white w-screen Perfil">
         <div className='flex flex-col items-center justify-center p-10  text-center'>
-            <h2 className="text-2xl font-bold mb-4">PERFIL</h2>
+            <h1 className="text-2xl font-bold mb-4">PERFIL</h1>
             <p className="mb-4">
               Soy un desarrollador web tanto backend como frontend con experiencia y altamente 
               calificado para desempeñarme en situaciones susceptibles de desarrollo de la tecnologia,

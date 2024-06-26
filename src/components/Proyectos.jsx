@@ -51,10 +51,7 @@ const Proyectos = () => {
     <div className="w-screen pb-12 pt-10 px-28 Proyectos">
         <hr className='pb-12'/>
         <div className='flex flex-col items-center justify-center pb-28 text-white font-bold'>
-            <h1>Proyecto</h1>
-            <p className='pt-12 px-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione doloribus architecto minus ipsa maiores itaque error doloremque asperiores 
-                nostrum ea rem veritatis, cupiditate animi deserunt culpa dignissimos reprehenderit ut.
-            </p>
+            <h1 className='text-2xl'>PROYECTOS</h1>
         </div>
 
         <div className="container mx-auto px-4 py-8">

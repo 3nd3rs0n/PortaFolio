@@ -1,0 +1,11 @@
+.Header, h1, h3 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.Montserrat, p {
+    font-family: "Montserrat", serif;
+    /* font-weight: bold; */
+    font-style: italic;
+   
+}  
+
