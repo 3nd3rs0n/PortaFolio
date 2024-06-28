@@ -9,9 +9,9 @@ import { TypeAnimation } from 'react-type-animation';
 const Navbar = () => {
   return (
     <>
-     <Header/>
-     
+      
       <nav className=" text-white w-screen navbar">
+      <Header/>
         <div className="container pl-12 pt-40 ">
           <div className='text-3xl Montserrat'>
             <TypeAnimation

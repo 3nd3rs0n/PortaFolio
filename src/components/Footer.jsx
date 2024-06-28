@@ -1,15 +1,13 @@
 import './Footer.css'
 
+
 const Footer = () => {
   return (
     <div className="w-screen  Footer">
         <div className='px-12'>
             <hr />
         </div>
-        
-       
-
-        
+   
     </div>
   )
 }

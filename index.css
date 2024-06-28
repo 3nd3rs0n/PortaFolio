@@ -1,4 +1,4 @@
-.Header, h1, h3 {
+.Header, h1, h3, a {
     font-family: "Orbitron", sans-serif;
 }
 
@@ -7,5 +7,10 @@
     /* font-weight: bold; */
     font-style: italic;
    
-}  
+} 
+
+.transparente {
+    position: relative;
+    z-index: 1; 
+}
 
