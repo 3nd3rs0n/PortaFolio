@@ -1,4 +1,4 @@
-import './Perfil.css'
+
 import Foto_Perfil from '../img/Perfil_Ender.png'
 
 const Perfil = () => {
@@ -19,7 +19,7 @@ const Perfil = () => {
         <div className='flex items-center justify-center'>
          <img src={Foto_Perfil} alt={Foto_Perfil} className='h-full max-h-64' />
         </div>
-</main>
+      </main>
   )
 }
 

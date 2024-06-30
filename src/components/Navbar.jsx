@@ -5,6 +5,7 @@ import Main from './Main'
 import Perfil from './Perfil'
 import Proyectos from './Proyectos'
 import Footer from './Footer'
+import Logros from './Logros'
 import { TypeAnimation } from 'react-type-animation';
 const Navbar = () => {
   return (
@@ -43,6 +44,7 @@ const Navbar = () => {
       </nav>
       <Main/>
       <Perfil/>
+      <Logros/>
       <Proyectos/>
       <Footer/>
     </>

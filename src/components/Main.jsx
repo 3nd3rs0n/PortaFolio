@@ -1,5 +1,4 @@
 import './Main.css'
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import img_react from '../img/react.png'
 import img_html from '../img/html.png'
@@ -23,7 +22,7 @@ const Main = () => {
     <main className="w-screen flex justify-center  Main">
         <div className="container w-1/2 text-white p-6 rounded-3xl h-full min-h-80 Contenido ">
             <div className='text-center pb-2'>
-              <h1 className="text-2xl font-bold mb-4">HABILIDADES</h1> 
+              <h1 className="text-2xl font-bold mb-4">Habilidades</h1> 
               <hr />    
             </div>  
 

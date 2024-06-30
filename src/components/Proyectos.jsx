@@ -1,4 +1,4 @@
-import './Proyectos.css'
+
 
 const Proyectos = () => {
    
@@ -51,7 +51,7 @@ const Proyectos = () => {
     <div className="w-screen pb-12 pt-10 px-28 Proyectos">
         <hr className='pb-12'/>
         <div className='flex flex-col items-center justify-center pb-28 text-white font-bold'>
-            <h1 className='text-2xl'>PROYECTOS</h1>
+            <h1 className='text-2xl'>Proyectos</h1>
         </div>
 
         <div className="container mx-auto px-4 py-8">
@@ -71,6 +71,7 @@ const Proyectos = () => {
                 ))}
             </div>
         </div>
+        
     </div>
   )
 }

@@ -14,3 +14,20 @@
     z-index: 1; 
 }
 
+
+.Perfil, .Logros {
+    height: 80vh;
+    background-color: #090612;
+}
+
+.Proyectos {
+    background-color:  #090612;
+    background-image: linear-gradient(to top, #070070 0%, #090612 75%);
+
+}
+
+.Footer {
+    height: 80vh;
+    background-color: #070070;
+}
+
