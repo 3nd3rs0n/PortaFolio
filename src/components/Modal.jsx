@@ -10,7 +10,7 @@ const Modal = ({ showModal, setShowModal, imgSrc, imgAlt }) => {
               >
                 &times;
               </button>
-              <img src={imgSrc} alt={imgAlt} className="max-h-80 max-w-full" />
+              <img src={imgSrc} alt={imgAlt} className="max-h-80 max-w-80" />
             </div>
           </div>
         ) : null}

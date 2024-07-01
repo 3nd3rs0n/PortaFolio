@@ -1,4 +1,5 @@
 import './Main.css'
+import { Element } from 'react-scroll';
 import 'react-multi-carousel/lib/styles.css';
 import img_react from '../img/react.png'
 import img_html from '../img/html.png'
@@ -18,8 +19,8 @@ import img_Git from '../img/git.png'
 
 const Main = () => {
   return (
-    <>
-    <main className="w-screen flex justify-center  Main">
+    <Element name='Habilidades'>
+          <main className="w-screen flex justify-center  Main">
         <div className="container w-1/2 text-white p-6 rounded-3xl h-full min-h-80 Contenido ">
             <div className='text-center pb-2'>
               <h1 className="text-2xl font-bold mb-4">Habilidades</h1> 
@@ -39,12 +40,10 @@ const Main = () => {
               <div className="h-18 w-18"> <img src={img_Vite} alt={img_Vite} /></div> 
               <div className="h-12 w-12"> <img src={img_Next} alt={img_Next} /></div> 
               <div className="h-12 w-12"> <img src={img_Git} alt={img_Git} /></div> 
-
           </div>
-  
         </div>
     </main>
-    </>
+    </Element>
   )
 }
 

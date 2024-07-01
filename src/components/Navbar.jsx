@@ -4,15 +4,15 @@ import astro from '../img/astro.png'
 import Main from './Main'
 import Perfil from './Perfil'
 import Proyectos from './Proyectos'
-import Footer from './Footer'
 import Logros from './Logros'
 import { TypeAnimation } from 'react-type-animation';
+import { Element } from 'react-scroll'
+
 const Navbar = () => {
   return (
-    <>
-      
+  <Element name='Inicio'>
       <nav className=" text-white w-screen navbar">
-      <Header/>
+        <Header/>
         <div className="container pl-12 pt-40 ">
           <div className='text-3xl Montserrat'>
             <TypeAnimation
@@ -22,6 +22,7 @@ const Navbar = () => {
                 'Soy Diseñador Web', 2000,
                 'Soy Diseñador Backend', 2000,
                 'Soy Diseñador Frontend', 2000,
+                'Contactame en mis redes', 4000,
 
               ]}
               wrapper="span" 
@@ -46,8 +47,8 @@ const Navbar = () => {
       <Perfil/>
       <Logros/>
       <Proyectos/>
-      <Footer/>
-    </>
+  </Element>
+      
   )   
 }
 
