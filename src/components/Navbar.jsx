@@ -7,12 +7,24 @@ import Proyectos from './Proyectos'
 import Logros from './Logros'
 import { TypeAnimation } from 'react-type-animation';
 import { Element } from 'react-scroll'
+import whatsapp from '../img/Whatsapp.png'
+
+
 
 const Navbar = () => {
+
+  const Numero = '56936214589';
+  const message = 'Hola, Me interesa tu CV';
+  const whatsappLink = `https://wa.me/${Numero}?text=${encodeURIComponent(message)}`;
+
+
   return (
   <Element name='Inicio'>
       <nav className=" text-white w-screen navbar">
         <Header/>
+        <div className='fixed top-3/4 -right-9 h-full w-48 pt-10 Wave '>
+          <a href={whatsappLink}> <img src={whatsapp} alt={whatsapp}  /></a>
+        </div>
         <div className="container pl-12 pt-40 ">
           <div className='text-3xl Montserrat'>
             <TypeAnimation
