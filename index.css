@@ -42,3 +42,33 @@
     }
   }
  
+  .navbar {
+    height: 80vh;
+     background-image: url('./src/img/galaxia_purpura.jpg'); 
+     background-size: cover; 
+     background-position: center; 
+     position: relative;
+ }
+ 
+ 
+ @keyframes bounce {
+     0% {
+         transform: translateY(0);
+     }
+     50% {
+         transform: translateY(-10px);
+     }
+     100% {
+         transform: translateY(0);
+     }
+ }
+ 
+ .astro {
+     position: absolute;
+     top: 25%;
+     left: 65%;
+     /* width: 20rem;
+     height: 20rem; */
+     object-fit: cover;
+     animation: bounce 2s infinite;
+ }

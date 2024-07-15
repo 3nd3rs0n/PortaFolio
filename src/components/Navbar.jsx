@@ -1,4 +1,3 @@
-import './navbar.css'
 import Header from './Header'
 import astro from '../img/astro.png'
 import Main from './Main'
