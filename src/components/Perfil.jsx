@@ -1,5 +1,5 @@
 import { Element } from 'react-scroll';
-import Foto_Perfil from '../img/Perfil_Ender.png'
+import Foto_Perfil from '../img/Perfil-4.png'
 
 const Perfil = () => {
   return (
@@ -18,7 +18,7 @@ const Perfil = () => {
 
           </div>
           <div className='flex items-center justify-center'>
-          <img src={Foto_Perfil} alt={Foto_Perfil} className='h-full max-h-64' />
+          <img src={Foto_Perfil} alt={Foto_Perfil} className='h-full max-h-64 rounded-full'  />
           </div>
       </main>
    </Element>  
