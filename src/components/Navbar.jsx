@@ -19,45 +19,47 @@ const Navbar = () => {
 
   return (
   <Element name='Inicio'>
-      <nav className=" text-white w-screen navbar">
-        <Header/>
-        <div className='fixed top-3/4 -right-9 h-full w-48 pt-10 Wave '>
-          <a href={whatsappLink}> <img src={whatsapp} alt={whatsapp}  /></a>
-        </div>
-        <div className="container pl-12 pt-40 ">
-          <div className='text-3xl Montserrat'>
-            <TypeAnimation
-              sequence=
-              {['Bienvenido a mi Portafolio', 4000,
-                'Soy Ender Torres', 2000,
-                'Soy Diseñador Web', 2000,
-                'Soy Diseñador Backend', 2000,
-                'Soy Diseñador Frontend', 2000,
-                'Contactame en mis redes', 4000,
+    <nav className=" text-white w-screen navbar">
+      <Header/>
+          <div className='fixed top-3/4 -right-9 h-full w-48 pt-10 Wave '>
+            <a href={whatsappLink}> <img src={whatsapp} alt={whatsapp}  /></a>
+          </div>
+         <div className="flex flex-col md:flex-row w-full min-h-screen md:min-h-96 pt-10">
+            <div className="flex-1 flex flex-col  justify-center px-4">
+              <div className="text-2xl Montserrat ">
+                <TypeAnimation
+                  sequence={[
+                    'Bienvenido a mi Portafolio', 4000,
+                    'Soy Ender Torres', 2000,
+                    'Soy Desarrollador Web', 2000,
+                    'Soy Desarrollador Backend', 2000,
+                    'Soy Desarrollador Frontend', 2000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  cursor={true}
+                  repeat={Infinity}
+                />
+              </div>
+              <p className="w-full pt-5 text-justify text-sm">
+                Apasionado y amante de la tecnologia y el aprendizaje continuo en el mundo de la programación,
+                dispuesto siempre a enfrentar desafios, buscando mejorar y adaptarme a las últimas tendencias y
+                mejores prácticas de la industria. Mi enfoque en el detalle y mi compromiso con la calidad
+                aseguran que cada proyecto en el que participo cumple con los más altos estándares.
+              </p>
+            </div>
+            <div className="flex-1 flex flex-col items-center justify-center p-4">
+              <div className="astro w-48 h-48 ">
+                <img src={astro} alt="astro" />
+              </div>
+            </div>
+          </div>
 
-              ]}
-              wrapper="span" 
-              speed={50}
-              cursor={true} 
-              repeat={Infinity} 
-              />
-          </div>
-          <p className='w-1/2 pt-5  text-justify text-sm '>
-          Apasionado y amante de la tecnologia y el aprendizaje continuo en el mundo de la programación,
-          dispuesto siempre a enfrentar desafios,buscando mejorar y adaptarme a las últimas tendencias y 
-          mejores prácticas de la industria. Mi enfoque en el detalle y mi compromiso con la calidad 
-          aseguran que cada proyecto en el que participo cumple con los más altos estándares.
-          </p>
-          <div className='astro w-48 h-48 pt-6'>
-          <img src={astro} alt={astro} />
-          </div>
-        
-        </div>
-      </nav>
-      <Main/>
-      <Perfil/>
-      <Logros/>
-      <Proyectos/>
+    </nav>
+    <Main/>
+    <Perfil/>
+    <Logros/>
+    <Proyectos/>
   </Element>
       
   )   

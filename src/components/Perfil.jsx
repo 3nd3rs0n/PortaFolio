@@ -4,8 +4,8 @@ import Foto_Perfil from '../img/Perfil-4.png'
 const Perfil = () => {
   return (
     <Element name='Perfil'>
-      <main className="grid grid-cols-2 gap-4 place-content-around text-white w-screen Perfil">
-        <div className='flex flex-col items-center justify-center p-10  text-center'>
+      <main className="flex flex-col md:flex-row min-h-screen md:min-h-96 text-white w-screen Perfil ">
+        <div className='flex-1 flex flex-col items-center justify-center p-10  text-justify'>
               <h1 className="text-2xl font-bold mb-4">Un poco sobre mí</h1>
               <p className="mb-4">
                 Soy un desarrollador web tanto backend como frontend con experiencia y altamente 
@@ -17,8 +17,8 @@ const Perfil = () => {
               </p>
 
           </div>
-          <div className='flex items-center justify-center'>
-          <img src={Foto_Perfil} alt={Foto_Perfil} className='h-full max-h-64 rounded-full'  />
+          <div className='flex-1 flex flex-col items-center justify-center'>
+          <img src={Foto_Perfil} alt={Foto_Perfil} className='h-full max-h-64 rounded-full' />
           </div>
       </main>
    </Element>  
