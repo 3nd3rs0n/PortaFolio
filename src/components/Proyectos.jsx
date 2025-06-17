@@ -1,6 +1,8 @@
 import { Element } from "react-scroll";
 // import PlanificadorGastos from "/img/Planificador_Gastos.png";
 // import Clima from '/img/Buscador_Clima.png';
+import Certificado_CSS from '/public/img/Certfificado_CSSAvanzado.png';
+
 
 const Proyectos = () => {
    
@@ -9,44 +11,16 @@ const Proyectos = () => {
           id: 1,
           title: 'Panificador De Gastos',
           description: 'Proyecto para el control de gastos personales',
-          image: "vacio",
+          image: Certificado_CSS,
           link: 'https://control-gatos-n7v3bq1n7-enders-projects-a235a8ed.vercel.app'
         },
         {
           id: 2,
           title: 'Buscador de Clima',
           description: 'Proyecto para consultar el clima de diferentes ciudades',
-          image: "vacio",
+          image: Certificado_CSS,
           link: 'https://clima-kappa-two.vercel.app/'
-        },
-        {
-          id: 3,
-          title: 'Proyecto 3',
-          description: 'Descripción del Proyecto 3',
-          image: 'https://via.placeholder.com/150',
-          link: '#'
-        },
-        {
-          id: 4,
-          title: 'Proyecto 4',
-          description: 'Descripción del Proyecto 4',
-          image: 'https://via.placeholder.com/150',
-          link: '#'
-        },
-        {
-          id: 5,
-          title: 'Proyecto 5',
-          description: 'Descripción del Proyecto 5',
-          image: 'https://via.placeholder.com/150',
-          link: '#'
-        },
-        {
-          id: 6,
-          title: 'Proyecto 6',
-          description: 'Descripción del Proyecto 6',
-          image: 'https://via.placeholder.com/150',
-          link: '#'
-        },
+        }
       ];
       
   return (
