@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
 import img_planificador_gastos from '/public/img/Planificador_Gastos.png';
-import img_Clima from '/public/img/Buscador_Clima.png';
+import img_Clima from '/img/Buscador_Clima.png';
 
 const Proyectos = () => {
    
