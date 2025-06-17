@@ -1,5 +1,5 @@
 import { Element } from 'react-scroll';
-import Foto_Perfil from '../img/Perfil-4.png'
+import Foto_Perfil from '/public/img/Perfil-4.png';
 
 const Perfil = () => {
   return (

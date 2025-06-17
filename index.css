@@ -4,7 +4,6 @@
 
 .Montserrat, p {
     font-family: "Montserrat", serif;
-    /* font-weight: bold; */
     font-style: italic;
    
 } 
@@ -16,7 +15,6 @@
 
 
 .Perfil, .Logros {
-    /* height: 80vh; */
     background-color: #090612;
 }
 
@@ -24,27 +22,10 @@
     background-color:  #090612;
     background-image: linear-gradient(to top, #070070 0%, #090612 75%);
 
-}
-
-/* .Wave img {
-    animation: pulsate 2s infinite;
-  }
-
-@keyframes pulsate {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
-  } */
- 
+} 
   .navbar {
-    /* height: 80vh; */
-     background-image: url('./src/img/galaxia_purpura.jpg'); 
+
+     background-image: url('/public/img/galaxia_purpura.jpg'); 
      background-size: cover; 
      background-position: center; 
      position: relative;
@@ -65,8 +46,6 @@
  
  .astro {
      position: absolute;
-     /* top: 25%;
-     left: 65%; */
      object-fit: cover;
      animation: bounce 2s infinite;
  }

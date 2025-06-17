@@ -1,16 +1,16 @@
 import { Element } from 'react-scroll';
-import img_react from '../img/react.png'
-import img_html from '../img/html.png'
-import img_css from '../img/css.png'
-import img_JS from '../img/JS.png'
-import img_NodeJS from '../img/nodejs.png'
-import img_Boostrap from '../img/boostrap.png'
-import img_Tailwind from '../img/tailwindcss.png'
-import img_Postgressql from '../img/postgress.png'
-import img_Github from '../img/github.png'
-import img_Vite from '../img/vite.png'
-import img_Next from '../img/next.png'
-import img_Git from '../img/git.png'
+import img_react from '/public/img/react.png'
+import img_html from '/public/img/html.png'
+import img_css from '/public/img/css.png'
+import img_JS from '/public/img/JS.png'
+import img_NodeJS from '/public/img/nodejs.png'
+import img_Boostrap from '/public/img/boostrap.png'
+import img_Tailwind from '/public/img/tailwindcss.png'
+import img_Postgressql from '/public/img/postgress.png'
+import img_Github from '/public/img/github.png'
+import img_Vite from '/public/img/vite.png'
+import img_Next from '/public/img/next.png'
+import img_Git from '/public/img/git.png'
 
 
 

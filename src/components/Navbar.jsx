@@ -1,12 +1,12 @@
 import Header from './Header'
-import astro from '../img/astro.png'
+import astro from '/public/img/astro.png'
 import Main from './Main'
 import Perfil from './Perfil'
 import Proyectos from './Proyectos'
 import Logros from './Logros'
 import { TypeAnimation } from 'react-type-animation';
 import { Element } from 'react-scroll'
-import whatsapp from '../img/Whatsapp.png'
+import whatsapp from '/public/img/Whatsapp.png'
 
 
 
