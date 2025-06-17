@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
-import img_planificador_gastos from '/public/img/Planificador_Gastos.png';
-import img_Clima from '/img/Buscador_Clima.png';
+import PlanificadorGastos from "/img/Planificador_Gastos.png";
+import Clima from '/img/Buscador_Clima.png';
 
 const Proyectos = () => {
    
@@ -9,14 +9,14 @@ const Proyectos = () => {
           id: 1,
           title: 'Panificador De Gastos',
           description: 'Proyecto para el control de gastos personales',
-          image: img_planificador_gastos,
+          image: PlanificadorGastos,
           link: 'https://control-gatos-n7v3bq1n7-enders-projects-a235a8ed.vercel.app'
         },
         {
           id: 2,
           title: 'Buscador de Clima',
           description: 'Proyecto para consultar el clima de diferentes ciudades',
-          image: img_Clima,
+          image: Clima,
           link: 'https://clima-kappa-two.vercel.app/'
         },
         {
